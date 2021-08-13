@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>인적사항</title>
   </head>
   <body>
@@ -9,17 +11,17 @@
     <table>
 
   <tr>
-    <td>이름</td>
+    <td class="leftBtn">이름</td>
     <td><input type="text" name = "Name" placeholder = "성함을 입력해주세요"></td>
   </tr>
 
   <tr>
-    <td>생년월일</td>
+    <td class="leftBtn">생년월일</td>
     <td><input type = "date"></td>
   </tr>
 
   <tr>
-    <td>성별</td>
+    <td class="leftBtn">성별</td>
     <td><div>
   <input type="radio" id="male" name="sex" value="male">
   <label for="남">남</label>
@@ -31,19 +33,24 @@
   </tr>
 
   <tr>
-    <td>연락처</td>
+    <td class="leftBtn">연락처</td>
     <td><input type="text" name = "phoneNum" placeholder = "(-)없이 입력"></td>
   </tr>
 
   <tr>
-    <td>개인정보취급방침</td>
+    <td class="leftBtn">개인정보취급방침</td>
     <td><a href="./개인정보취급방침.html">자세히</a></td>
     <td><input type="checkbox" id="male" name="sex" value="male">
     <label for="동의">동의</label></td>
   </tr>
 
-
-
+</table>
+<br>
+<table>
+  <tr>
+    <td><a href="./workcontent.html">확인</a></td>
+    <td><a href="./start.html">취소</a></td>
+  </tr>
 </table>
   </body>
 </html>
