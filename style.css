@@ -4,12 +4,25 @@ body{
 a {
   color:black;
 }
-h1 {
-  font-size:45px;
+h1 {padding: 4px 6px;
+  background-color: #000080;
+  color: white;
+  border: none;
+  border-radius: 10px;
   text-align: center;
-  border-bottom:1px solid gray;
-  margin:0;
-  padding:20px;
+  text-decoration: none;
+  width:200px;
+  transform: translate(-50%, -50%);
+  position : absolute;
+  left : 50%;
+}
+
+table   {
+  position : absolute;
+  left : 50%;
+  top : 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
 }
 ol{
   border-right:1px solid gray;
@@ -33,7 +46,24 @@ ol{
 	border: none;
 	border-radius: 10px;
 	text-decoration: none;
+  width:200px;
+
 }
+.rightBtn {padding: 4px 6px;
+	color: black;
+  border:1px black solid;
+  border-radius: 10px;
+	text-decoration: none;
+  width:100px;
+}
+.mainBtn {
+  position : relative;
+  left : 50%;
+  top : 450px;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+
 @media(max-width:800px){
   #grid{
     display: block;
